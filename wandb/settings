@@ -1,0 +1,5 @@
+[default]
+entity = licky
+project = keras-rl
+base_url = https://api.wandb.ai
+
