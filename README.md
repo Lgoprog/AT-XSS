@@ -1,4 +1,4 @@
-## 一种基于生成对抗网络的XSS自动化攻击工具
+## 一种基于强化学习的XSS自动化攻击工具
 1. 请根据系统选择合适的chorme-driver
  - https://www.chromium.org/getting-involved/download-chromium/
 2. 根据系统安装合适的crawlergo
