@@ -14,7 +14,7 @@ docker run -d --name xss-lab -p 8080:80 xss-labs
 4. 使用方法
 ```
 python -r requirements.txt
-python xsscan.py
+python xsscan.py -u http://target.com/
 
 usage: AutomXSS [options]
 
