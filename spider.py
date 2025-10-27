@@ -133,7 +133,7 @@ def init_w13scan():
 
 
 if __name__ == '__main__':
-    target = "http://10.0.21.17:8080/level1.php?name=test"  
+    target = "http:/tatget/level1.php?name=test"  
     init_w13scan()
     vulscan(target)
     #read_test()
